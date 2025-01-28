@@ -7,10 +7,11 @@ The subarrays must be returned in the following order:
 
       <b>
       // User function Template for Java
+ 
 class Solution {
     public List<List<Integer>> getSubArrays(int[] arr) {
         // code here
-        int n = arr.size();
+        int n = arr.size();                  
         for (int i = 0 ; i < n ; i++){
             for  ( int j = i ;j < n ; j++){
                 for ( int k = i ; k <= j ; k ++){
